@@ -1,0 +1,15 @@
+{
+  "name": "RWAhub review",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "forwardPorts": [
+    5180
+  ],
+  "portsAttributes": {
+    "5180": {
+      "label": "RWAhub review",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "npm ci",
+  "postStartCommand": "bash -c 'nohup npm run dev -- --host 0.0.0.0 > /tmp/rwahub-preview.log 2>&1 &'"
+}
