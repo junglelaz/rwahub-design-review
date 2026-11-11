@@ -14,7 +14,7 @@ No account, API keys, browser wallet or installation required for the live demo.
 2. **Open the steel sports watch.** Inspect sample evidence, fractional economics and ownership terms. Start a demo purchase; connecting the demo wallet resumes your action.
 3. **Review your portfolio.** Completed purchases appear as holdings. Try the sapphire bid and tiara exchange to see pending activity kept separate from ownership.
 4. **List an asset.** Walk through validation, sample evidence upload, specialist selection and the final submission review. Files remain on your device; only their names are recorded in your browser.
-5. **Explore recovery states.** Open Review controls in the footer for loading, unavailable inventory, empty inventory and wallet-network scenarios. Reset demo data to start again.
+5. **Explore recovery states.** Open Review controls in the top banner for loading, unavailable inventory, empty inventory and wallet-network scenarios. Reset demo data to start again.
 
 The [audit coverage map](docs/AUDIT_COVERAGE.md) connects all 19 findings to the corresponding product improvements. The [validation record](docs/VALIDATION.md) records the tested journeys and remaining boundaries.
 
@@ -65,3 +65,4 @@ This review was prepared from the publicly available [Blockvora-AI/RWAmarket pro
 ## Updating the hosted demo
 
 The live site is served from the root of the `gh-pages` branch. After changing the source, run `npm ci`, `npm test` and `npm run build`, then publish the contents of `dist-review/` (including a `.nojekyll` file) to that branch. Keep the source on `main`.
+
